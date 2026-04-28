@@ -13,7 +13,7 @@ export default function StellingbouwPage() {
       title="Stellingbouw"
       intro="De juiste stelling die perfect aansluit bij uw project — voor renovatie, nieuwbouw of onderhoud."
       image1="/images/service-stellingbouw.jpg"
-      image2="/images/projects/13.jpg"
+      image2="/images/stellingbouw-detail.jpg"
       features={[
         {
           title: "Veiligheid voorop",
