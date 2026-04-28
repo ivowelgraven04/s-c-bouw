@@ -2,6 +2,44 @@ import Image from "next/image";
 import Link from "next/link";
 import { site } from "@/lib/site";
 
+function ReviewsPill() {
+  return (
+    <div className="inline-flex items-center gap-2.5 rounded-full border border-white/20 bg-white/10 px-3.5 py-1.5 shadow-[0_4px_20px_-8px_rgba(0,0,0,0.4)] backdrop-blur-md">
+      <div
+        className="flex items-center gap-0.5"
+        aria-label="5 van 5 sterren"
+      >
+        {Array.from({ length: 5 }).map((_, i) => (
+          <svg
+            key={i}
+            width="14"
+            height="14"
+            viewBox="0 0 24 24"
+            fill="#F4BD14"
+            aria-hidden
+          >
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14l-5-4.87 6.91-1.01L12 2z" />
+          </svg>
+        ))}
+      </div>
+      <span className="h-3.5 w-px bg-white/30" aria-hidden />
+      <span className="text-xs font-medium text-white">
+        uit 25+ reviews
+      </span>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src="/images/google-g.png"
+        alt="Google"
+        width={16}
+        height={16}
+        className="h-4 w-4 shrink-0"
+        loading="lazy"
+        decoding="async"
+      />
+    </div>
+  );
+}
+
 export function Hero() {
   return (
     <section className="relative isolate overflow-hidden bg-black text-white">
@@ -19,7 +57,7 @@ export function Hero() {
 
       <div className="container-wide relative py-28 sm:py-36 lg:py-44">
         <div className="max-w-3xl fade-up">
-          <p className="text-base font-medium text-white/90">S&amp;C Bouw</p>
+          <ReviewsPill />
           <h1 className="mt-6 font-display text-4xl font-bold leading-[1.1] tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
             {site.tagline}
           </h1>
