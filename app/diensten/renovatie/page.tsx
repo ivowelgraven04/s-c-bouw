@@ -11,7 +11,7 @@ export default function RenovatiePage() {
     <ServiceDetail
       eyebrow="S & C Bouw"
       title="Renovatie"
-      intro="Bij S&C Bouw geloven we dat renovatie meer is dan alleen het repareren van wat kapot is — het is een persoonlijke reis."
+      intro="Bij S&C Bouw geloven we dat renovatie meer is dan alleen het repareren van wat kapot is. Het gaat om uw huis en hoe u erin wilt wonen."
       image1="/images/service-renovatie.jpg"
       image2="/images/projects/09.jpg"
       features={[
@@ -23,12 +23,12 @@ export default function RenovatiePage() {
         {
           title: "Totaalpakket",
           body:
-            "Structurele aanpassingen, dakvernieuwing, isolatie, gevelrenovatie — alles onder één dak.",
+            "Structurele aanpassingen, dakvernieuwing, isolatie en gevelrenovatie: alles onder één dak.",
         },
         {
           title: "Vergunningen geregeld",
           body:
-            "Wij regelen vergunningen en stemmen af met specialisten waar nodig — u heeft één aanspreekpunt.",
+            "Wij regelen vergunningen en stemmen af met specialisten waar nodig. U heeft één aanspreekpunt.",
         },
       ]}
       body={[

@@ -8,7 +8,7 @@ export function Logo({ className = "", height = 44 }: Props) {
     <Link
       href="/"
       className={`inline-flex items-center gap-2 ${className}`}
-      aria-label="S&C Bouw — home"
+      aria-label="S&C Bouw, naar de startpagina"
     >
       <Image
         src="/images/logo.png"

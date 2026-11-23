@@ -61,7 +61,7 @@ export function ServiceDetail(props: ServiceDetailProps) {
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
               <Image
                 src={props.image1}
-                alt={`${props.title} — voorbeeld 1`}
+                alt={`${props.title}, voorbeeld 1`}
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -70,7 +70,7 @@ export function ServiceDetail(props: ServiceDetailProps) {
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
               <Image
                 src={props.image2}
-                alt={`${props.title} — voorbeeld 2`}
+                alt={`${props.title}, voorbeeld 2`}
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 50vw"

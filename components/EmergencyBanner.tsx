@@ -19,7 +19,7 @@ export function EmergencyBanner() {
           <div>
             <span className="eyebrow">24/7 bereikbaar</span>
             <h2 className="mt-4 font-display text-3xl font-bold leading-tight text-white sm:text-4xl md:text-5xl">
-              Spoedgeval – 24/7 S&amp;C
+              Spoedgeval? 24/7 S&amp;C
             </h2>
             <p className="mt-5 max-w-xl text-base leading-relaxed text-white/80">
               Heeft u te maken met een daklekkage, stormschade of een plotseling

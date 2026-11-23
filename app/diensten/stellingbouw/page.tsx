@@ -11,7 +11,7 @@ export default function StellingbouwPage() {
     <ServiceDetail
       eyebrow="S & C Bouw"
       title="Stellingbouw"
-      intro="De juiste stelling die perfect aansluit bij uw project — voor renovatie, nieuwbouw of onderhoud."
+      intro="De juiste stelling die perfect aansluit bij uw project, of het nu gaat om renovatie, nieuwbouw of onderhoud."
       image1="/images/service-stellingbouw.jpg"
       image2="/images/stellingbouw-detail.jpg"
       features={[
@@ -28,7 +28,7 @@ export default function StellingbouwPage() {
         {
           title: "Op maat van het project",
           body:
-            "We bekijken uw situatie en kiezen de juiste opbouw — voor zowel kleine als grote werken.",
+            "We bekijken uw situatie en kiezen de juiste opbouw, voor kleine en grote werken.",
         },
       ]}
       body={[
@@ -36,14 +36,14 @@ export default function StellingbouwPage() {
           heading: "Stellingbouw als losse dienst",
           paragraphs: [
             "Heeft u alleen een stelling nodig voor renovatie, schilderwerk of dakwerken? Wij bieden stellingbouw als aparte dienst aan, inclusief montage en demontage door ons eigen team.",
-            "Een veilige, stabiele stelling is essentieel voor efficiënt en veilig werken op hoogte — dat begint bij een correcte opbouw.",
+            "Een veilige, stabiele stelling is essentieel voor efficiënt en veilig werken op hoogte. Dat begint bij een goede opbouw.",
           ],
         },
         {
           heading: "Inclusief advies",
           paragraphs: [
             "We adviseren over het juiste type en de juiste maatvoering, en zorgen ervoor dat de stelling perfect aansluit bij de werkzaamheden die u of uw aannemer uitvoert.",
-            "Combineert u dakwerken of renovatie met stellingbouw? Dan ontzorgen wij u volledig — alles onder één dak.",
+            "Combineert u dakwerken of renovatie met stellingbouw? Dan regelen wij alles voor u, onder één dak.",
           ],
         },
       ]}

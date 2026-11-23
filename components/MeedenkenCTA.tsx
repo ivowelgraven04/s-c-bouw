@@ -9,7 +9,7 @@ type Props = {
 
 export function MeedenkenCTA({
   title = "Klaar voor de volgende stap?",
-  body = "Wij denken graag met u mee — neem vrijblijvend contact op voor advies of een offerte.",
+  body = "Wij denken graag met u mee. Neem vrijblijvend contact op voor advies of een offerte.",
   ctaLabel = "Vrijblijvende offerte",
   ctaHref = "/contact",
 }: Props) {

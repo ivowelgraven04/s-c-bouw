@@ -29,7 +29,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: `${site.name} — ${site.tagline}`,
+    default: `${site.name} | ${site.tagline}`,
     template: `%s · ${site.name}`,
   },
   description:
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     locale: "nl_NL",
     url: siteUrl,
     siteName: site.name,
-    title: `${site.name} — ${site.tagline}`,
+    title: `${site.name} | ${site.tagline}`,
     description:
       "Aannemer in Maastricht voor dakwerken, nieuwbouw, renovatie en stellingbouw in Nederland & België.",
   },

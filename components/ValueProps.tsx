@@ -4,7 +4,7 @@ const items: Item[] = [
   {
     title: "Expertise",
     body:
-      "Onze vakmannen brengen jarenlange ervaring en doorlopende bijscholing mee voor elk project — groot of klein.",
+      "Onze vakmannen brengen jarenlange ervaring en doorlopende bijscholing mee naar elk project, groot of klein.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
         <path d="M3 21h18" />
@@ -27,7 +27,7 @@ const items: Item[] = [
   {
     title: "Veiligheid",
     body:
-      "Gecertificeerde, ervaren medewerkers werken volgens de strengste veiligheidsnormen — voor uzelf én ons team.",
+      "Gecertificeerde, ervaren medewerkers werken volgens de strengste veiligheidsnormen, voor u en voor ons team.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
         <path d="M12 2l9 4v6c0 5-4 9-9 10-5-1-9-5-9-10V6l9-4z" />
@@ -37,7 +37,7 @@ const items: Item[] = [
   {
     title: "Transparantie",
     body:
-      "Heldere prijzen, duidelijke planning en open communicatie — zonder verrassingen achteraf.",
+      "Heldere prijzen, duidelijke planning en open communicatie. Zo komt u achteraf niet voor verrassingen te staan.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
         <circle cx="12" cy="12" r="10" />

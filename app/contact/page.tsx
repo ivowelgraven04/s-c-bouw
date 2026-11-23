@@ -28,7 +28,7 @@ export default function ContactPage() {
               <dl className="mt-8 space-y-7">
                 <div>
                   <dt className="text-xs font-semibold uppercase tracking-[0.18em] text-muted">
-                    Telefoon — Simon
+                    Telefoon Simon
                   </dt>
                   <dd className="mt-1">
                     <a
@@ -41,7 +41,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <dt className="text-xs font-semibold uppercase tracking-[0.18em] text-muted">
-                    Telefoon — Cas
+                    Telefoon Cas
                   </dt>
                   <dd className="mt-1">
                     <a

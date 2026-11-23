@@ -48,7 +48,7 @@ export function Header() {
           <Link
             href="/"
             className="inline-flex items-center"
-            aria-label="S&C Bouw — home"
+            aria-label="S&C Bouw, naar de startpagina"
           >
             <Image
               src="/images/logo.png"

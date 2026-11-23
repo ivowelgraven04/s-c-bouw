@@ -1,4 +1,4 @@
-// Project gallery for /projecten — 20 project photos
+// Project gallery for /projecten: 20 project photos
 export const projects: { src: string; alt: string }[] = Array.from(
   { length: 20 },
   (_, i) => {

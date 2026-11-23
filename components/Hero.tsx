@@ -24,7 +24,7 @@ function ReviewsPill() {
       </div>
       <span className="h-3.5 w-px bg-white/30" aria-hidden />
       <span className="text-xs font-medium text-white">
-        uit 25+ reviews
+        5,0 uit 7 Google-reviews
       </span>
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img

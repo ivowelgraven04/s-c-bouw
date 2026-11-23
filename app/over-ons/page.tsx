@@ -10,7 +10,7 @@ import { site } from "@/lib/site";
 export const metadata = {
   title: "Over Ons",
   description:
-    "Over S&C Bouw — opgericht door Cas Marchal en Simon Hilgers. Aannemer voor heel Nederland en België.",
+    "Over S&C Bouw, opgericht door Cas Marchal en Simon Hilgers. Aannemer voor heel Nederland en België.",
 };
 
 export default function OverOnsPage() {
@@ -31,7 +31,7 @@ export default function OverOnsPage() {
             <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-line">
               <Image
                 src="/images/about-team.jpg"
-                alt={`${site.founders.join(" & ")} — oprichters S&C Bouw`}
+                alt={`${site.founders.join(" & ")} , oprichters van S&C Bouw`}
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -41,15 +41,15 @@ export default function OverOnsPage() {
               <span className="eyebrow">Wie zijn wij</span>
               <h2 className="h-section mt-4">Cas Marchal &amp; Simon Hilgers</h2>
               <p className="lede mt-5">
-                S&amp;C Bouw is opgericht door {site.founders.join(" en ")},
-                twee gepassioneerde vakmannen. Met S&amp;C bundelen we
-                jarenlange ervaring in dakwerken, nieuwbouw, renovatie en
+                S&amp;C Bouw is opgericht door {site.founders.join(" en ")}.
+                Samen met ons eigen team en een netwerk van lokale
+                onderaannemers doen we dakwerken, nieuwbouw, renovatie en
                 stellingbouw.
               </p>
               <p className="mt-4 text-base leading-relaxed text-body">
-                Als aannemer coördineren wij het volledige bouwproces — van
-                eerste kennismaking tot oplevering. Eén vast aanspreekpunt,
-                heldere planning en oog voor detail. We werken in heel Nederland
+                Als aannemer coördineren wij het hele bouwproces, van de eerste
+                kennismaking tot de oplevering. U heeft één vast aanspreekpunt,
+                een heldere planning en wij letten op de details. We werken in heel Nederland
                 en België.
               </p>
               <div className="mt-8">
@@ -71,7 +71,7 @@ export default function OverOnsPage() {
             {[
               {
                 t: "Klantgerichte service",
-                b: "Wij staan altijd klaar voor onze klanten — van het eerste gesprek tot ver na de oplevering.",
+                b: "Van het eerste gesprek tot ruim na de oplevering kunt u bij ons terecht.",
               },
               {
                 t: "Vertrouwd & aanbevolen",
@@ -79,7 +79,7 @@ export default function OverOnsPage() {
               },
               {
                 t: "Gecertificeerd & verzekerd",
-                b: "Volledig gecertificeerd team en alle benodigde verzekeringen — zekerheid voor u en ons.",
+                b: "Ons team is gecertificeerd en we hebben alle benodigde verzekeringen. Dat geeft zekerheid, voor u en voor ons.",
               },
             ].map((x) => (
               <div

@@ -64,7 +64,7 @@ export default function HomePage() {
               </h2>
               <p className="lede mt-5">
                 Een overzicht van realisaties die vakmanschap en oog voor detail
-                uitstralen — van nieuwbouw tot renovatie.
+                uitstralen, van nieuwbouw tot renovatie.
               </p>
               <Link href="/projecten" className="btn-primary mt-8">
                 Bekijk onze projecten

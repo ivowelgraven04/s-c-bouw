@@ -23,7 +23,7 @@ export default function DakwerkenPage() {
         {
           title: "Renovatie",
           body:
-            "Vakkundige oplossingen voor verouderde of beschadigde daken — modern, duurzaam en strak afgewerkt.",
+            "Vakkundige oplossingen voor verouderde of beschadigde daken: modern, duurzaam en strak afgewerkt.",
         },
         {
           title: "Spoedgeval",
@@ -43,7 +43,7 @@ export default function DakwerkenPage() {
           heading: "Hellend dak",
           paragraphs: [
             "Hellende daken voorzien wij van traditionele materialen zoals dakpannen van klei of beton, of natuurlijke leien. De helling zorgt voor een natuurlijke waterafvoer en een lange levensduur.",
-            "Of het nu gaat om een complete dakvernieuwing, het vervangen van losse pannen of een grondige inspectie — wij werken met aandacht voor detail en oog voor de uitstraling van uw woning.",
+            "Of het nu gaat om een complete dakvernieuwing, het vervangen van losse pannen of een grondige inspectie: wij werken met aandacht voor detail en oog voor de uitstraling van uw woning.",
           ],
         },
       ]}

@@ -12,7 +12,7 @@ const steps = [
   {
     n: "01",
     title: "Stuur je CV en motivatie",
-    body: "Korte motivatie volstaat — we kijken vooral naar wie je bent.",
+    body: "Een korte motivatie is genoeg. We kijken vooral naar wie je bent.",
   },
   {
     n: "02",
@@ -118,7 +118,7 @@ export default function WerkenBijPage() {
 
       <MeedenkenCTA
         title="Liever eerst even sparren?"
-        body="Bel of mail ons gerust — we vertellen graag meer over wie we zijn en hoe we werken."
+        body="Bel of mail ons gerust. We vertellen je graag meer over wie we zijn en hoe we werken."
         ctaLabel="Neem contact op"
       />
     </>

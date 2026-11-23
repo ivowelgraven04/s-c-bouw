@@ -6,14 +6,14 @@ export function MaastrichtMap() {
           <span className="eyebrow">Werkgebied</span>
           <h2 className="h-section mt-4">Actief in Nederland &amp; België</h2>
           <p className="lede mt-5">
-            Onze thuisbasis ligt in Maastricht en omgeving — we werken voor
+            Onze thuisbasis ligt in Maastricht en omgeving. We werken voor
             klanten in heel Zuid-Limburg en daarbuiten, in Nederland en België.
           </p>
         </div>
 
         <div className="mt-10 overflow-hidden rounded-2xl border border-line">
           <iframe
-            title="Werkgebied S&C Bouw — Maastricht en omgeving"
+            title="Werkgebied S&C Bouw: Maastricht en omgeving"
             src="https://www.openstreetmap.org/export/embed.html?bbox=5.27%2C50.65%2C6.10%2C51.05&layer=mapnik&marker=50.8514%2C5.6909"
             width="100%"
             height="480"

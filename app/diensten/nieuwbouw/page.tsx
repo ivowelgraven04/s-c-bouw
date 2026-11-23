@@ -3,7 +3,7 @@ import { ServiceDetail } from "@/components/ServiceDetail";
 export const metadata = {
   title: "Nieuwbouw",
   description:
-    "Nieuwbouw van particuliere woningen, appartementen en bedrijfspanden — van ontwerp tot oplevering door S&C Bouw.",
+    "Nieuwbouw van particuliere woningen, appartementen en bedrijfspanden. S&C Bouw begeleidt u van ontwerp tot oplevering.",
 };
 
 export default function NieuwbouwPage() {
@@ -28,7 +28,7 @@ export default function NieuwbouwPage() {
         {
           title: "Sleutelklaar",
           body:
-            "Van fundering tot afwerking nemen wij het volledige bouwproces uit handen — u krijgt de sleutel.",
+            "Van fundering tot afwerking nemen wij het hele bouwproces uit handen. U krijgt de sleutel.",
         },
       ]}
       body={[
@@ -36,7 +36,7 @@ export default function NieuwbouwPage() {
           heading: "Voor particulier én bedrijf",
           paragraphs: [
             "Wij realiseren uiteenlopende nieuwbouwprojecten voor particuliere en zakelijke opdrachtgevers: vrijstaande woningen, twee-onder-een-kapwoningen, appartementen, kantoorruimtes en bedrijfshallen.",
-            "Of u nu droomt van uw eerste eigen huis of plannen heeft voor een nieuw bedrijfspand — we begeleiden u door het volledige proces.",
+            "Of u nu droomt van uw eerste eigen huis of plannen heeft voor een nieuw bedrijfspand: we begeleiden u door het hele proces.",
           ],
         },
         {

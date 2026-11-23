@@ -10,7 +10,7 @@ export function Footer() {
       <div className="container-wide py-16">
         <div className="grid gap-10 lg:grid-cols-4">
           <div>
-            <Link href="/" className="inline-flex items-center" aria-label="S&C Bouw — home">
+            <Link href="/" className="inline-flex items-center" aria-label="S&C Bouw, naar de startpagina">
               <Image
                 src="/images/logo.png"
                 alt="S&C Bouw"
@@ -20,7 +20,7 @@ export function Footer() {
               />
             </Link>
             <p className="mt-5 max-w-xs text-sm leading-relaxed text-white/70">
-              S&amp;C Bouw — uw aannemer voor dakwerken, nieuwbouw, renovatie
+              S&amp;C Bouw, uw aannemer voor dakwerken, nieuwbouw, renovatie
               en stellingbouw.
             </p>
           </div>

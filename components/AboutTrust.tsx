@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 const points = [
-  "Gelicentieerde vakmensen",
-  "Kwaliteitsvakmanschap",
-  "Klantgerichte service",
+  "Eigen team en lokale vakmensen",
+  "Eén vast aanspreekpunt",
+  "Afspraak is afspraak",
 ];
 
 export function AboutTrust() {
@@ -15,7 +15,7 @@ export function AboutTrust() {
           <div className="relative aspect-square overflow-hidden rounded-3xl border border-line">
             <Image
               src="/images/about-cta.png"
-              alt="Dakpannen op een hellend dak — vakmanschap S&C Bouw"
+              alt="Dakpannen op een hellend dak, gelegd door S&C Bouw"
               fill
               className="object-cover"
               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -24,25 +24,23 @@ export function AboutTrust() {
 
           <div>
             <span className="eyebrow">Over Ons</span>
-            <h2 className="h-section mt-4">Leer ons better kennen</h2>
+            <h2 className="h-section mt-4">Leer ons beter kennen</h2>
             <div className="mt-6 space-y-4 text-base leading-relaxed text-body">
               <p>
-                Wij zijn Cas Marchal en Simon Hilgers. Samen zijn wij S&amp;C
-                Bouw. Sinds jongs af aan hebben wij een passie ontwikkeld voor
-                het renoveren en creëren van leefruimtes. Wij zijn
-                gespecialiseerd in het uitvoeren van dakwerken, volledige
-                nieuwbouw en renovaties.
+                Wij zijn Cas Marchal en Simon Hilgers, samen S&amp;C Bouw. Het
+                bouwen en opknappen van huizen trok ons al van jongs af aan.
+                Inmiddels doen we met ons team dakwerken, nieuwbouw en
+                renovaties.
               </p>
               <p>
-                S&amp;C Bouw legt zich ook toe op de rol van aannemer. Dit
-                houdt in dat wij binnen een bouwproject een coördinerende rol
-                vervullen — communicatie met klant en vaklieden, een soepel
-                werkproces en de eindverantwoordelijkheid voor het project.
-                Klik{" "}
+                Daarnaast werken we als aannemer. Dan coördineren wij het
+                project: we houden contact met u en met de vaklieden, zorgen dat
+                het werk goed doorloopt en zijn eindverantwoordelijk voor het
+                resultaat. Bekijk{" "}
                 <Link href="/projecten" className="text-primary hover:underline">
                   hier
                 </Link>{" "}
-                om te zien welke projecten wij al succesvol hebben afgerond.
+                welke projecten we al hebben afgerond.
               </p>
             </div>
 

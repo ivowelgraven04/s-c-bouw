@@ -18,10 +18,10 @@ export const faqHome: FAQItem[] = [
   },
   {
     q: "Is het mogelijk om enkel stellingen te huren?",
-    a: "Ja, wij bieden stellingbouw als aparte dienst aan. Onze stellingen zijn veilig, stabiel en snel geplaatst — ideaal voor renovatie-, schilder- of dakwerken. We zorgen ook voor montage en demontage.",
+    a: "Ja, wij bieden stellingbouw als aparte dienst aan. Onze stellingen zijn veilig, stabiel en snel geplaatst, ideaal voor renovatie-, schilder- of dakwerken. We zorgen ook voor montage en demontage.",
   },
   {
     q: "Waarom kiezen voor S&C Bouw als aannemer?",
-    a: "U krijgt twee gepassioneerde vakmannen die meedenken, helder communiceren en hun afspraken nakomen. Eén vast aanspreekpunt, kwalitatieve materialen en oog voor detail — voor particulier én bedrijf.",
+    a: "Bij S&C Bouw werkt u met ons eigen team, aangevuld met een netwerk van lokale onderaannemers uit de buurt. Daardoor kunnen we veel verschillende klussen voor u regelen, terwijl u één vast aanspreekpunt houdt. We denken mee, communiceren helder en komen onze afspraken na, voor particulieren en bedrijven.",
   },
 ];
