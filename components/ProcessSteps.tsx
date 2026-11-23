@@ -54,7 +54,7 @@ export function ProcessSteps() {
                 <span className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-primary text-ink">
                   <span className="block h-6 w-6">{s.icon}</span>
                 </span>
-                <span className="font-display text-sm font-bold uppercase tracking-[0.2em] text-primary">
+                <span className="font-display text-sm font-bold uppercase tracking-[0.2em] text-[#8a6700]">
                   {s.n}
                 </span>
               </div>

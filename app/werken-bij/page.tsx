@@ -3,6 +3,7 @@ import { MeedenkenCTA } from "@/components/MeedenkenCTA";
 import { site } from "@/lib/site";
 
 export const metadata = {
+  alternates: { canonical: "/werken-bij" },
   title: "Werken bij",
   description:
     "Sluit je aan bij het team van S&C Bouw en bouw mee aan de toekomst.",
@@ -75,7 +76,7 @@ export default function WerkenBijPage() {
               of mail rechtstreeks naar{" "}
               <a
                 href={site.emailHref}
-                className="font-semibold text-primary hover:underline"
+                className="font-semibold text-[#8a6700] hover:underline"
               >
                 {site.email}
               </a>
@@ -96,7 +97,7 @@ export default function WerkenBijPage() {
                 key={s.n}
                 className="rounded-2xl border border-line bg-white p-7"
               >
-                <span className="font-display text-sm font-bold uppercase tracking-[0.2em] text-primary">
+                <span className="font-display text-sm font-bold uppercase tracking-[0.2em] text-[#8a6700]">
                   {s.n}
                 </span>
                 <h3 className="mt-3 font-sans text-xl font-bold text-ink">

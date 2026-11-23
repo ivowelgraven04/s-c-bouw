@@ -4,14 +4,14 @@ export const siteUrl =
     ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
     : process.env.VERCEL_URL
       ? `https://${process.env.VERCEL_URL}`
-      : "https://www.scbouw.nl");
+      : "https://www.sc-bouw.com");
 
 export const site = {
   name: "S&C Bouw",
   shortName: "S&C",
   tagline: "Een stabiele ondergrond voor jouw project",
-  email: "info@scbouw.nl",
-  emailHref: "mailto:info@scbouw.nl",
+  email: "info@sc-bouw.com",
+  emailHref: "mailto:info@sc-bouw.com",
   phone: "+31 6 22 86 41 25",
   phoneHref: "tel:+31622864125",
   phoneSimon: "+31 6 22 86 41 25",

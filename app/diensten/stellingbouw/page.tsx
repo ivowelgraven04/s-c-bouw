@@ -1,6 +1,7 @@
 import { ServiceDetail } from "@/components/ServiceDetail";
 
 export const metadata = {
+  alternates: { canonical: "/diensten/stellingbouw" },
   title: "Stellingbouw",
   description:
     "Veilige, stabiele en snel geplaatste stellingen voor renovatie-, schilder- of dakwerken. Inclusief montage en demontage.",

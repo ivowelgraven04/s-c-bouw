@@ -4,6 +4,7 @@ import { MeedenkenCTA } from "@/components/MeedenkenCTA";
 import { projects } from "@/lib/projects";
 
 export const metadata = {
+  alternates: { canonical: "/projecten" },
   title: "Recente Projecten",
   description:
     "Een overzicht van realisaties van S&C Bouw die vakmanschap en oog voor detail uitstralen.",

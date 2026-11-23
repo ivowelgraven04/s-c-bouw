@@ -1,6 +1,7 @@
 import { ServiceDetail } from "@/components/ServiceDetail";
 
 export const metadata = {
+  alternates: { canonical: "/diensten/renovatie" },
   title: "Renovatie",
   description:
     "Totaalrenovaties van woningen: structurele aanpassingen, dakvernieuwing, isolatie en gevelrenovaties op maat door S&C Bouw.",

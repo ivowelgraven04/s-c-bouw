@@ -1,6 +1,7 @@
 import { ServiceDetail } from "@/components/ServiceDetail";
 
 export const metadata = {
+  alternates: { canonical: "/diensten/nieuwbouw" },
   title: "Nieuwbouw",
   description:
     "Nieuwbouw van particuliere woningen, appartementen en bedrijfspanden. S&C Bouw begeleidt u van ontwerp tot oplevering.",

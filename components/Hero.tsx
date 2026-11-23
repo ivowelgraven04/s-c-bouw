@@ -7,6 +7,7 @@ function ReviewsPill() {
     <div className="inline-flex items-center gap-2.5 rounded-full border border-white/20 bg-white/10 px-3.5 py-1.5 shadow-[0_4px_20px_-8px_rgba(0,0,0,0.4)] backdrop-blur-md">
       <div
         className="flex items-center gap-0.5"
+        role="img"
         aria-label="5 van 5 sterren"
       >
         {Array.from({ length: 5 }).map((_, i) => (

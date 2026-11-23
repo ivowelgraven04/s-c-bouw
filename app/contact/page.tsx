@@ -3,6 +3,7 @@ import { EmergencyBanner } from "@/components/EmergencyBanner";
 import { site } from "@/lib/site";
 
 export const metadata = {
+  alternates: { canonical: "/contact" },
   title: "Contact",
   description:
     "Neem contact op met S&C Bouw. Wij staan 24/7 voor u klaar voor spoedgevallen aan dakwerken, nieuwbouw, renovatie en stellingbouw.",

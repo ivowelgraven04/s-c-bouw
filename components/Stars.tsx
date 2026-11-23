@@ -4,6 +4,7 @@ export function Stars({ rating = 5, size = 18 }: Props) {
   return (
     <div
       className="flex items-center gap-0.5"
+      role="img"
       aria-label={`${rating} van 5 sterren`}
     >
       {Array.from({ length: 5 }).map((_, i) => (

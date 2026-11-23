@@ -18,9 +18,9 @@ export function FAQ({ items }: { items: FAQItem[] }) {
               onClick={() => setOpenIdx(isOpen ? null : i)}
               className="flex w-full items-center justify-between gap-4 px-5 py-5 text-left sm:px-7 sm:py-6"
             >
-              <h4 className="font-display text-lg font-bold text-ink sm:text-xl">
+              <h3 className="font-display text-lg font-bold text-ink sm:text-xl">
                 {item.q}
-              </h4>
+              </h3>
               <span
                 className={`inline-flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full bg-primary text-ink transition-transform ${
                   isOpen ? "rotate-180" : ""

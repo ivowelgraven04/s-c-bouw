@@ -37,7 +37,7 @@ export function AboutTrust() {
                 project: we houden contact met u en met de vaklieden, zorgen dat
                 het werk goed doorloopt en zijn eindverantwoordelijk voor het
                 resultaat. Bekijk{" "}
-                <Link href="/projecten" className="text-primary hover:underline">
+                <Link href="/projecten" className="text-[#8a6700] hover:underline">
                   hier
                 </Link>{" "}
                 welke projecten we al hebben afgerond.
@@ -51,7 +51,7 @@ export function AboutTrust() {
                     className="inline-block h-2 w-2 flex-shrink-0 rounded-full bg-primary"
                     aria-hidden
                   />
-                  <span className="text-base font-semibold text-primary">
+                  <span className="text-base font-semibold text-[#8a6700]">
                     {p}
                   </span>
                 </li>

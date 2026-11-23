@@ -4,6 +4,7 @@ import { MeedenkenCTA } from "@/components/MeedenkenCTA";
 import { services } from "@/lib/services";
 
 export const metadata = {
+  alternates: { canonical: "/diensten" },
   title: "Diensten",
   description:
     "Dakwerken, nieuwbouw, renovatie en stellingbouw. Eén aannemer voor uw project van fundering tot oplevering.",

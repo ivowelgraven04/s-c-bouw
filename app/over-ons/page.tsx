@@ -8,6 +8,7 @@ import { MeedenkenCTA } from "@/components/MeedenkenCTA";
 import { site } from "@/lib/site";
 
 export const metadata = {
+  alternates: { canonical: "/over-ons" },
   title: "Over Ons",
   description:
     "Over S&C Bouw, opgericht door Cas Marchal en Simon Hilgers. Aannemer voor heel Nederland en België.",

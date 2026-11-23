@@ -1,6 +1,7 @@
 import { ServiceDetail } from "@/components/ServiceDetail";
 
 export const metadata = {
+  alternates: { canonical: "/diensten/dakwerken" },
   title: "Dakwerken",
   description:
     "Plaatsing, herstel, isolatie en onderhoud van platte en hellende daken. Bij S&C Bouw zorgen wij voor alles wat met daken te maken heeft.",

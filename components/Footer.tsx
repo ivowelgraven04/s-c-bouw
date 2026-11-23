@@ -26,16 +26,16 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-[0.18em] text-primary">
+            <h3 className="text-sm font-semibold uppercase tracking-[0.18em] text-primary">
               Adres
-            </h4>
+            </h3>
             <p className="mt-4 text-sm text-white/80">{site.region}</p>
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-[0.18em] text-primary">
+            <h3 className="text-sm font-semibold uppercase tracking-[0.18em] text-primary">
               Contact
-            </h4>
+            </h3>
             <ul className="mt-4 space-y-2 text-sm">
               <li>
                 <a
@@ -57,9 +57,9 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-[0.18em] text-primary">
+            <h3 className="text-sm font-semibold uppercase tracking-[0.18em] text-primary">
               Navigatie
-            </h4>
+            </h3>
             <ul className="mt-4 space-y-2 text-sm">
               {flatNav.map((n) => (
                 <li key={n.href}>
