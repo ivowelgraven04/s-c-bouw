@@ -1,23 +1,24 @@
 import type { Metadata, Viewport } from "next";
-import { DM_Sans, Playfair_Display } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { site, siteUrl } from "@/lib/site";
 
-const dmSans = DM_Sans({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+const dmSans = localFont({
+  src: "./fonts/dm-sans-latin-wght-normal.woff2",
+  weight: "100 1000",
   variable: "--font-dm-sans",
   display: "swap",
 });
 
-const playfair = Playfair_Display({
-  subsets: ["latin"],
-  weight: ["500", "600", "700", "800"],
+const playfair = localFont({
+  src: "./fonts/playfair-display-latin-wght-normal.woff2",
+  weight: "400 900",
   variable: "--font-playfair",
   display: "swap",
+  adjustFontFallback: "Times New Roman",
 });
 
 export const viewport: Viewport = {
